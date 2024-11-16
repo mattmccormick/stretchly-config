@@ -12,8 +12,8 @@
 	"microbreakStrictMode": false,
 	"breakStrictMode": false,
 	"morningHour": 6,
-	"microbreakPostpone": true,
-	"breakPostpone": true,
+	"microbreakPostpone": false,
+	"breakPostpone": false,
 	"microbreakPostponeTime": 120000,
 	"breakPostponeTime": 300000,
 	"microbreakPostponesLimit": 2,
@@ -507,6 +507,11 @@
 	"appExclusionsCheckInterval": 1000,
 	"pauseForSuspendOrLock": true,
 	"pauseBreaksToggleShortcut": "",
+	"pauseBreaksFor30MinutesShortcut": "",
+	"pauseBreaksFor1HourShortcut": "",
+	"pauseBreaksFor2HoursShortcut": "",
+	"pauseBreaksFor5HoursShortcut": "",
+	"pauseBreaksUntilMorningShortcut": "",
 	"screen": "primary",
 	"timeToBreakInTray": true,
 	"currentTimeInBreaks": false,
@@ -515,9 +520,10 @@
 	"skipToNextMiniBreakShortcut": "",
 	"skipToNextLongBreakShortcut": "",
 	"resetBreaksShortcut": "",
+	"showBreakActionsInStrictMode": false,
 	"__internal__": {
 		"migrations": {
-			"version": "1.15.1"
+			"version": "1.16.0"
 		}
 	}
 }
